@@ -1,2 +1,2 @@
 # Sepiola
-Sepiola test auomation tool
+Sepiola test automation tool
