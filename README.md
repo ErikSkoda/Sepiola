@@ -26,7 +26,7 @@ No. It just merges data with a template.
 
 Can I also use it to create EDIFACT files?
 
-Of course. Sepiola knows nothing about soapUI, XML, SOAP, Java or Edifact. All it does is merging data and a template. Because it is not linked to any one technology you can apply it to all. If you want to create EDIFACT files, or Perl, Grease Monley, JSON or any other kind of script or data file, you can do so.
+Yes. All Sepiola does is merge data and a template. Because it is not linked to any one technology you can apply it to all. If you want to create EDIFACT files, or Perl, Grease Monley, JSON or any other kind of script or data file, you can do so.
 
 
 How long will it take to learn?
