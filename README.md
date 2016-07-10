@@ -118,9 +118,9 @@ Can I change the name of the Excelsheet containing Sepiola?
 Just as long as you don't change the extension .xlsm. Also, you need to rename the template accordingly. When you rename sepiola.xlsm to mock.xlsm, Sepiola will be looking for a template named mock.xlsm_body.txt.
 
 
-Anything I should avoid?
+Is there anything I should avoid?
 
-Deleting or inserting rows or columns in the data sheet will mess up your support info sheet from where you can copy and paste parameters into your template.
+Deleting or inserting rows or columns in the data sheet will mess up the references in your support info sheet from where you can copy and paste parameters into your template. Sepiola will still run but your possibilities to copy and paste parameters tags from Excel into your template is compromised.
 
 Can I use Excel functionality like conditional formatting to check for double values and still run Sepiola?
 
