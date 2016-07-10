@@ -36,7 +36,7 @@ A couple of minutes using an example as a starting point.
 
 What other tools do I need to generate data driven files with Sepiola?
 
-Microsodt Excel and a text editor.
+Microsoft Excel and a text editor.
 
 
 How do I install Sepiola?
