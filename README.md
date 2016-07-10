@@ -1,7 +1,6 @@
 # Sepiola
 Sepiola test automation tool
 
-Summary
 Tool for quickly and easily creating data driven testscripts and testdata regardless of which technolgy you are using. However it's use is not limited to testing. You could just as well create mailings.
 
 Why use Sepiola?
