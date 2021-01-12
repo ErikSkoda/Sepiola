@@ -13,10 +13,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task: BatchScript@1
-  inputs:
-   filename: 'test.bat'
-   workingFolder: 'C:\UL\bat'
+steps:
+- script: test.bat
+
 
 
 - script: |
