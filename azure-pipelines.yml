@@ -13,17 +13,18 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
+# Batch script
+# Run a Windows command or batch script and optionally allow it to change the environment
+- task: BatchScript@1
+  inputs:
+    filename: C:\UL\bat\trigger-GolfQuiz.bat
+    #arguments: # Optional
+    #modifyEnvironment: False # Optional
+    #workingFolder: # Optional
+    #failOnStandardError: false # Optional
+
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-# Batch script
-# Run a Windows command or batch script and optionally allow it to change the environment
-- task: BatchScript@1
-  inputs:
-    script: C:\UL\bat\trigger-GolfQuiz.bat
-    #arguments: # Optional
-    #modifyEnvironment: False # Optional
-    #workingFolder: # Optional
-    #failOnStandardError: false # Optional
