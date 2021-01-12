@@ -22,7 +22,7 @@ steps:
 # Run a Windows command or batch script and optionally allow it to change the environment
 - task: BatchScript@1
   inputs:
-    filename: C:\UL\bat\trigger-GolfQuiz.bat
+    script: C:\UL\bat\trigger-GolfQuiz.bat
     #arguments: # Optional
     #modifyEnvironment: False # Optional
     #workingFolder: # Optional
