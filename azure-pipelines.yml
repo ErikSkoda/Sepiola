@@ -20,7 +20,6 @@ steps:
   workingDirectory: 'C:\UL\bat'
 
 - task: CmdLine@2
-  script: 'whatever'
   displayName: 'whatever'
 
 - task: BatchScript@1
