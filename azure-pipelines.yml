@@ -13,10 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task: 'CliTask@2'
-  inputs:
-    filename: 'C:\UL\bat\trigger-GolfQuiz.bat'
-
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
