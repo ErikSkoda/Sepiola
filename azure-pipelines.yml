@@ -19,9 +19,9 @@ steps:
   displayName: 'Run a multi-line script'
   workingDirectory: 'C:\UL\bat'
 
-- task: MyTask@2
-
 - task: BatchScript@1
+  enabled: true
+  continueOnError: true
   inputs:
-   filename: 'test.bat'
-   workingFolder: 'C:\UL\bat'
+    filename: 'test.bat'
+    workingfolder: 'C:\UL\bat'
