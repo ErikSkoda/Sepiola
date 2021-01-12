@@ -13,16 +13,15 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-steps:
-- task: CmdLine@2
-  script: 'whatever'
-  displayName: 'whatever'
-
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
   workingDirectory: 'C:\UL\bat'
+
+- task: CmdLine@2
+  script: 'whatever'
+  displayName: 'whatever'
 
 - task: BatchScript@1
   enabled: true
