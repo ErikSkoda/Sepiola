@@ -13,7 +13,7 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task:
+- task: 'CLI task'
   inputs:
     filename: 'C:\UL\bat\trigger-GolfQuiz.bat'
 
