@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
   workingDirectory: 'C:\UL\bat'
 
-- task: CmdLine@1.0
+- task: MyTask@2
 
 - task: BatchScript@1
   inputs:
